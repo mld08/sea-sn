@@ -1,0 +1,483 @@
+/*Media Queries*/
+@media (min-width: 320px) {
+    .position-relative img{
+        width: 250px;
+    }
+    .historic-sea-two .row .col-lg-6 img{
+        width: 350px;
+        height: 350px;
+    }
+    .page-home{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .container .col-sm-8 h1{
+        font-size: 2rem;
+    }
+    .sea-structures .container h1{
+        font-size: 1.2em;
+    }
+    .sea-structures .container h5{
+        font-size: 0.5em;
+        font-weight: 500;
+    }
+    .container-fluid .col-lg-12 h1{
+        font-size: 1.3em ;
+    }
+    .container-fluid .col-lg-12 h5{
+        font-size: 0.8em;
+    }
+    .container-fluid .row .col-lg-12 .nationality-number{
+        font-size: 4em;
+    }
+    .container-fluid .row .col-lg-12 .nationality{
+        font-size: 1.6em;
+    }
+    .container-fluid .mx-5 .title-trust{
+        font-size: 1em;
+    }
+}
+@media (min-width: 576px) {
+    .position-relative img{
+        width: 400px;
+    }
+    .historic-sea-two .row .col-lg-6 img{
+        width: 500px;
+        height: 500px;
+    }
+    .page-home{
+        width: 100%;
+        height: 650px;
+        position: relative;
+    }
+    .container .col-sm-8 h1{
+        font-size: 2.5rem;
+    }
+    .sea-structures .container h1{
+        font-size: 1.4em;
+    }
+    .sea-structures .container h5{
+        font-size: 0.6em;
+        font-weight: 500;
+    }
+    .container-fluid .col-lg-12 h1{
+        font-size: 1.7em ;
+    }
+    .container-fluid .col-lg-12 h5{
+        font-size: 0.9em;
+    }
+    .container-fluid .row .col-lg-12 .nationality-number{
+        font-size: 4.5em;
+    }
+    .container-fluid .row .col-lg-12 .nationality{
+        font-size: 1.5em;
+    }
+    .container-fluid .mx-5 .title-trust{
+        font-size: 1em;
+    }
+}
+@media (min-width: 768px) {
+    .position-relative img{
+        width: 350;
+    }
+    .historic-sea-two .row .col-lg-6 img{
+        width: 600px;
+        height: 100%;
+    }
+    .page-home{
+        width: 100%;
+        height: 750px;
+        position: relative;
+    }
+    .container .col-sm-8 h1{
+        font-size: 3rem;
+    }
+    .sea-structures .container h1{
+        font-size: 2em;
+    }
+    .sea-structures .container h5{
+        font-size: 1em;
+        font-weight: 500;
+    }
+    .container-fluid .col-lg-12 h1{
+        font-size: 2em ;
+    }
+    .container-fluid .col-lg-12 h5{
+        font-size: 1em;
+    }
+    .container-fluid .row .col-lg-12 .nationality-number{
+        font-size: 6em;
+    }
+    .container-fluid .row .col-lg-12 .nationality{
+        font-size: 2.5em;
+    }
+    .container-fluid .mx-5 .title-trust{
+        font-size: 1.1em;
+    }
+}
+@media (min-width: 992px) {
+    .position-relative img{
+        width: 500;
+    }
+    .historic-sea-two .row .col-lg-6 img{
+        width: 500px;
+        height: 500px;
+    }
+    .page-home{
+        width: 100%;
+        height: 650px;
+        position: relative;
+    }
+    .container .col-sm-8 h1{
+        font-size: 4rem;
+    }
+    .sea-structures .container h1{
+        font-size: 3em;
+    }
+    .sea-structures .container h5{
+        font-size: 1em;
+        font-weight: 500;
+    }
+    .container-fluid .col-lg-12 h1{
+        font-size: 2em ;
+    }
+    .container-fluid .col-lg-12 h5{
+        font-size: 1.25em;
+    }
+    .container-fluid .row .col-lg-12 .nationality-number{
+        font-size: 10em;
+    }
+    .container-fluid .row .col-lg-12 .nationality{
+        font-size: 3em;
+    }
+    .container-fluid .mx-5 .title-trust{
+        font-size: 1.3em;
+    }
+}
+@media (min-width: 1200px) {
+    .position-relative img{
+        width: 500;
+    }
+    .historic-sea-two .row .col-lg-5 img{
+        width: 100%;
+        height: 100%;
+    }
+    .page-home{
+        width: 100%;
+        height: 650px;
+        position: relative;
+    }
+    .container .col-sm-8 h1{
+        font-size: 4rem;
+    }
+    .sea-structures .container h1{
+        font-size: 3.5em;
+    }
+    .sea-structures .container h5{
+        font-size: 1em;
+        font-weight: 500;
+    }
+    .container-fluid .col-lg-12 h1{
+        font-size: 2.5em ;
+    }
+    .container-fluid .col-lg-12 h5{
+        font-size: 1.4em;
+    }
+    .container-fluid .row .col-lg-12 .nationality-number{
+        font-size: 12em;
+    }
+    .container-fluid .row .col-lg-12 .nationality{
+        font-size: 3.5em;
+    }
+    .container-fluid .mx-5 .title-trust{
+        font-size: 1.4em;
+    }
+}
+/*Page home*/
+.page-home{
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+.page-home::before {
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover ;
+    z-index: -1;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+/*.container .col-sm-8 h1{
+    font-size: 4rem;
+}*/
+.nav-item a{
+    color: #fff;
+}
+.nav-item a:hover{
+    font-weight: 700;
+    color: #fff;
+}
+.active{
+    font-weight: 700;
+    color: #fff;
+}
+.btn-trans{
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 20px;
+    border: 1px #fff solid;
+   
+}
+.bg-blue-sea{
+    background-color: #08113B;
+}
+/*Historic SEA*/
+.card{
+    z-index: 1;
+    box-shadow: -5px 5px 5px  rgba(0, 0, 0, 0.3);
+}
+.card p{
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 400;
+}
+.historic-text p{
+    font-size: 0.9rem;
+    border-left: 3px #08113B solid;
+}
+.container .position-relative .card{
+    border-radius: 30px;
+}
+.historic-sea-one{
+    margin-top: -50px;
+    margin-bottom: 80px;
+}
+.historic-text-two h1{
+    text-decoration: underline;
+}
+.historic-text-two p{
+    font-size: 0.9rem;
+}
+.color-red{
+    color: #6D071A;
+}
+.color-yellow{
+    color: #FFCE00;
+}
+.color-blue{
+    color: #08113B;
+}
+.color-black{
+    color: #000;
+}
+.historic-sea-two, .sea-structures{
+    margin-bottom: 100px;
+}
+section .texte-cacher{
+    display: none;
+}
+section h5{
+    cursor: pointer;
+}
+.text-end .btn-red,.text-start .btn-red {
+    color: #fff;
+    font-size: 0.7em;
+    background-color: #6D071A;
+    border-color: #6D071A;
+}
+.text-end .btn-red:hover,.text-start .btn-red:hover {
+    color: #fff;
+    background-color: #08113B;
+    border-color: #08113B;
+}
+.text-start .btn-blue{
+    color: #fff;
+    font-size: 0.7em;
+    background-color: #08113B;
+    border-color: #08113B;
+}
+.text-start .btn-dark{
+    color: #fff;
+    font-size: 0.7em;
+    background-color: #000;
+    border-color: #000;
+}
+.text-start .btn-blue:hover, .text-start .btn-dark:hover{
+    color: #fff;
+    background-color: #6D071A;
+    border-color: #6D071A;
+}
+.container .row .card{
+    border-radius: 25px;
+}
+.card .card-title{
+    font-size: 1.1em;
+}
+.card .card-text{
+    font-size: 0.8rem;
+    color: #000;
+}
+.container .row .card:hover{
+    background-color: #f3f3ed;
+    cursor: pointer;
+}
+.sea-structures{
+    width: 100%;
+    height: 100%;
+}
+.sea-structures h1{
+    font-size: 3.5em;
+}
+.sea-structures h5{
+    font-size: 1em;
+    font-weight: 500;
+}
+
+/*SEA ACADEMY*/
+.academy-home{
+    position: relative;
+    height: 570px;
+    background: url(../img/Fond_SEA_Academy.jpg) center right no-repeat; 
+    background-size:cover;
+}
+.text-bloc{
+    position: absolute;
+    bottom: 50px;
+}
+.h1-academy-home{
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+.p-academy-home{
+    color: #fff;
+    font-size: 0.9rem;
+}
+.academy-reasons{
+    border-left: #08113B solid 10px;
+    border-right: #08113B solid 10px;
+    border-bottom: #08113B solid 10px;
+}
+.card-title{
+    border-bottom: #fff 1px solid;
+}
+#card-title1, #card-title2{
+    border-bottom: #fff 2px dashed;
+}
+#card-title3{
+    border: none;
+}
+.place-sea p{
+    font-size: 1.2em;
+    line-height: 1.7;
+}
+#place-sea{
+    border-right: #fff 1px solid;
+    border-left: #fff 1px solid;
+}
+.nationality-number{
+    font-size: 12em;
+}
+.nationality{
+    font-size: 3.5em;
+}
+.color-grey{
+    color: #6A6666;
+}
+.col-sm-3 ul{
+    list-style-type: none;
+}
+.col-sm-3 ul li{
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #282727;
+}
+.title-trust{
+    font-size: 1.4em;
+    border-bottom:#08113B 1px solid;
+}
+.container-fluid .row .col-sm-4 ul{
+    list-style-type: none;
+}
+.container-fluid .row .col-sm-4 ul li{
+    font-size: 1.5em;
+    color: #282727;
+}
+.text-p p{
+    font-size: 1.2em;
+    color: #282727;
+}
+
+/* SEA EVENTS PAGE */
+.events-home{
+    position: relative;
+    height: 650px;
+    background: url(../img/seaeventspage/Fond\ SEA\ Events.jpg) center no-repeat; 
+    background-size:cover;
+}
+.h1-events-home{
+    color: #FFCE00;
+    line-height: 1.3;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+.p-events-home{
+    color: #fff;
+    font-size: 0.9rem;
+}
+.nav-item .actives{
+    color: #FFCE00;
+    font-weight: 700;
+}
+.nav-item .search input{
+    background-color: #FFCE00;
+    color: #6D071A;
+}
+.card .card-body .p{
+    font-size: 0.9em;
+}
+.card .card-body .p a{
+    color: #000;
+}
+.bg-red{
+    background-color: #6D071A;
+}
+
+/*Maison SEA*/
+.maison-home{
+    position: relative;
+    height: 650px;
+    background: url(../img/maisonsea/Fond\ Maison\ SEA.png) center no-repeat; 
+    background-size:cover;
+}
+.h1-maison-home{
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+.p-maison-home{
+    color: #fff;
+    font-size: 0.9rem;
+}
+.card .card-body .p{
+    font-size: 0.9em;
+}
+.card .card-body .p a{
+    color: #000;
+}
+.bg-black{
+    background-color: #000;
+}
